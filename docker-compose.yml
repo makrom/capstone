@@ -16,7 +16,7 @@ services:
     build: .
     command: bundle exec rails s -p 3000 -b '0.0.0.0'
     volumes:
-      - .:/capstone
+      - .:/myapp
     ports:
       - "3000:3000"
     depends_on:
@@ -33,7 +33,7 @@ services:
     build: .
     command: docker/docker-rake-commands.sh
     volumes:
-      - .:/capstone
+      - .:/myapp
     depends_on:
       - postgres
       - mongo
@@ -55,7 +55,7 @@ services:
     build: .
     command: docker/docker-test-commands.sh
     volumes:
-      - .:/capstone
+      - .:/myapp
     depends_on:
       - postgres
       - mongo
