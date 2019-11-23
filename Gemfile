@@ -1,6 +1,5 @@
 #
 source 'https://rubygems.org'
-#ruby '2.3.5'
 
 gem 'rails', '4.2.6'
 
@@ -25,8 +24,8 @@ group :development do
 end
 
 group :production do
-    gem 'rails_12factor', '~>0.0', '>=0.0.3'
-    gem 'pg'
+  gem 'rails_12factor', '~>0.0', '>=0.0.3'
+  gem 'pg'
 end
 
 gem 'puma', '~>3.7', '>=3.6.0', :platforms => :ruby
