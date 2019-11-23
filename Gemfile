@@ -1,6 +1,6 @@
 #
 source 'https://rubygems.org'
-#ruby '2.3.0'
+#ruby '2.3.5'
 
 gem 'rails', '4.2.6'
 
@@ -29,5 +29,5 @@ group :production do
     gem 'pg'
 end
 
-gem 'puma', '~>3.7', '>=3.6.0' #, :platforms => :ruby
+gem 'puma', '~>3.7', '>=3.6.0', :platforms => :ruby
 gem 'mongoid'
