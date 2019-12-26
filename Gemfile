@@ -11,7 +11,7 @@ gem 'jbuilder', '~>2.0', '>=2.6.0'
 
 gem 'pry-rails', '~>0.3', '>=0.3.4'
 
-gem 'rack-cors', '~>0.4', '>=0.4.0', :require => 'rack/cors'
+gem 'rack-cors', '~>1.0', :require => 'rack/cors'
 
 gem 'bson', '~>4.2.0'
 
