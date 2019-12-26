@@ -1,1 +1,1 @@
-# Capstone application
+# Capstone application for coursera capstone
