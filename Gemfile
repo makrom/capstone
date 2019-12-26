@@ -30,5 +30,5 @@ group :production do
   gem 'pg'
 end
 
-gem 'puma', '~>3.7', '>=3.6.0', :platforms => :ruby
+gem 'puma', '~>3.12', :platforms => :ruby
 gem 'mongoid', '~>5.1.5'
