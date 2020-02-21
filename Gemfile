@@ -4,12 +4,16 @@ source 'https://rubygems.org'
 ruby '2.2.5'
 gem 'rails', '4.2.6'
 gem 'rails-api', '~>0.4', '>=0.4.0'
-gem 'jbuilder', '~>2.0', '>=2.6.0'
 gem 'pry-rails', '~>0.3', '>=0.3.4'
 gem 'rack-cors', '~>0.4', '>=0.4.0', :require => 'rack/cors'
 gem 'bson', '~>4.2.0'
 # Use SCSS for stylesheets
-gem 'sass-rails', '~> 5.0.6'
+# gem 'sass-rails', '~> 5.0.6'
+gem 'sass-rails', '~>5.0', '>=3.4.22'
+gem 'uglifier', '~>3.0', '>=3.0.2'
+gem 'coffee-rails', '~>4.1', '>=4.1.0'
+gem 'jquery-rails', '~>4.2', '>=4.2.1'
+gem 'jbuilder', '~>2.0', '>=2.6.0'
 
 group :development do
   gem 'spring', '~>2.0', '>=2.0.0'
