@@ -4,6 +4,10 @@
   angular
     .module("spa")
     .constant("spa.APP_CONFIG", {
-      main_page_html: "spa/pages/main.html"
+      server_url: "http://localhost:3000",
+
+      main_page_html: "spa/pages/main.html",
+
+      cities_html: "spa/cities/cities.html"
     });
 })();
